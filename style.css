@@ -70,6 +70,15 @@ header img {
     padding-left: 10px;
 }
 
+.hi {
+    align-self: flex-end;
+    font-weight: bold;
+}
+
+.user {
+    align-self: flex-start;
+}
+
 .buttons {
     display: flex;
     align-items: center;
@@ -78,11 +87,16 @@ header img {
 }
 
 .buttons button {
-    height: 25px;
-    width: 60px;
+    height: 40px;
+    width: 80px;
     border-radius: 25px;
     border: none;
     background-color: #5AC7FA;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: #D9F2FE;
 }
 
 .sidebar {
@@ -106,6 +120,10 @@ header img {
     height: 2rem;
     width: auto;
     background-color: #5AC7FA;
+}
+
+.sidebar p:hover {
+    color: #FFF;
 }
 
 .sidebar p, .sidebar h2 {
@@ -142,7 +160,9 @@ main {
     grid-template-columns: 4fr 2fr;
     background-color: #FFF;
     border-radius: 7px;
-    border-left: 5px solid #5AC7FA;
+    border-left: 8px solid #e98d37;
+    height: 200px;
+    width: auto;
 }
 
 .card-text {
@@ -185,7 +205,7 @@ main {
     justify-content: center;
     align-items: center;
     gap: 10px;
-    font-size: 0.75rem;
+    font-size: 1rem;
     background-color: #FFF;
     padding: 5px;
     border-radius: 10px;
