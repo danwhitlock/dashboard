@@ -12,8 +12,7 @@
 
 header {
     background-color: white;
-    grid-column: 2 / 5;
-    grid-row: 1 / 1;
+    grid-area: 1 / 2 / 1 / 5;
     display: grid;
     grid-template-columns: 3fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -101,8 +100,7 @@ button:hover {
 
 .sidebar {
     background-color: #5AC7FA;
-    grid-column: 1 / 1;
-    grid-row: 1 / 5;
+    grid-area: 1 / 1 / 5 / 1;
     display: grid;
     grid-template-rows: auto 1fr 1fr;
     padding: 15px;
@@ -138,8 +136,7 @@ li {
 
 main {
     background-color: #D9F2FE;
-    grid-column: 2 / 5;
-    grid-row: 2 / 5;
+    grid-area: 2 / 2 / 5 / 5;
     display: grid;
     grid-template-columns: 3fr 1fr;
 }
@@ -179,8 +176,7 @@ main {
     display: flex;
     justify-content: flex-end;
     gap: 10px;
-    grid-column: 2 / 2;
-    grid-row: 2 / 2;
+    grid-area: 2 / 2 / 2 / 2;
     padding-right: 10px;
     padding-bottom: 5px;
 }
@@ -197,7 +193,6 @@ main {
     grid-column: 2 / 2;
     gap: 10px;
     padding: 10px;
-    justify-items: center;
 }
 
 .announce, .trending {
@@ -213,6 +208,9 @@ main {
     box-shadow: 3px 3px 5px gray;
 }
 
+.announce h4 {
+    text-decoration: underline;
+}
 
 .trending img {
     height: 3rem;
