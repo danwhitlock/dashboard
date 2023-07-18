@@ -30,15 +30,15 @@ header img {
     display: flex;
     align-items: center;
     gap: 0.5rem;
-    flex: 1;
 }
 
 .search-field {
     background-color: #D9F2FE;
-    border-radius: 25px;
     border: none;
     height: 1.5rem;
     width: 20rem;
+    padding: 8px;
+    border-radius: 25px;
 }
 
 .profile {
@@ -148,7 +148,7 @@ main {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto 1fr 1fr 1fr;
-    gap: 10px;
+    gap: 20px;
     padding: 10px;
 }
 .card-container h2 {
@@ -163,6 +163,7 @@ main {
     border-left: 8px solid #e98d37;
     height: 200px;
     width: auto;
+    box-shadow: 3px 3px 5px gray;
 }
 
 .card-text {
@@ -209,6 +210,7 @@ main {
     background-color: #FFF;
     padding: 5px;
     border-radius: 10px;
+    box-shadow: 3px 3px 5px gray;
 }
 
 
